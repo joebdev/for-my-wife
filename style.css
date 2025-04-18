@@ -25,6 +25,7 @@ body {
     margin: 0 auto;
     font-size: 2.5rem;
     font-family: 'Great Vibes';
+    font-weight: 400;
 }
 
 .head p {
@@ -33,22 +34,57 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding-top: 6%;
-    font-weight: 100;
+    font-weight: 300;
     color: #333333;
 }
 
 .content {
     padding-top: 18px;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
 }
 
 figure {
     padding: 0;
     margin: 0;
+    font-weight: 300;
 }
 
 .image {
     width: 100%;
     height: auto;
     border-radius: 24px;
+}
+
+.text-content {
+    background: linear-gradient(to bottom, #E6BE8A, #FFFFE0);
+    border-radius: 24px;
+    padding: 24px 0px;
+}
+
+.text-content h2 {
+    font-size: 1.5rem;
+    font-family: 'Great Vibes';
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 6%;
+    font-weight: 400;
+    color: #003366;
+}
+
+.text-content p {
+    text-align: left;
+    line-height: 1.5;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.footer {
+    font-family: 'Great Vibes';
+    font-size: 2rem;
+    color: #003366;
 }
